@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		499C6D9D1C63DF2E000A3CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C6D9C1C63DF2E000A3CA7 /* AppDelegate.swift */; };
-		499C6D9F1C63DF2E000A3CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C6D9E1C63DF2E000A3CA7 /* ViewController.swift */; };
 		499C6DA21C63DF2E000A3CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499C6DA01C63DF2E000A3CA7 /* Main.storyboard */; };
 		499C6DA41C63DF2E000A3CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499C6DA31C63DF2E000A3CA7 /* Assets.xcassets */; };
 		499C6DA71C63DF2E000A3CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499C6DA51C63DF2E000A3CA7 /* LaunchScreen.storyboard */; };
@@ -35,7 +34,6 @@
 /* Begin PBXFileReference section */
 		499C6D991C63DF2E000A3CA7 /* Gists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		499C6D9C1C63DF2E000A3CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		499C6D9E1C63DF2E000A3CA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		499C6DA11C63DF2E000A3CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		499C6DA31C63DF2E000A3CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		499C6DA61C63DF2E000A3CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,9 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				499C6D9C1C63DF2E000A3CA7 /* AppDelegate.swift */,
-				499C6D9E1C63DF2E000A3CA7 /* ViewController.swift */,
 				499C6DA01C63DF2E000A3CA7 /* Main.storyboard */,
-				499C6DCA1C63E046000A3CA7 /* List Gists */,
+				499C6DCA1C63E046000A3CA7 /* Scenes */,
 				499C6DA31C63DF2E000A3CA7 /* Assets.xcassets */,
 				499C6DA51C63DF2E000A3CA7 /* LaunchScreen.storyboard */,
 				499C6DA81C63DF2E000A3CA7 /* Info.plist */,
@@ -111,7 +108,15 @@
 			path = GistsTests;
 			sourceTree = "<group>";
 		};
-		499C6DCA1C63E046000A3CA7 /* List Gists */ = {
+		499C6DCA1C63E046000A3CA7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				499C6DCB1C63E45C000A3CA7 /* List Gists */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		499C6DCB1C63E45C000A3CA7 /* List Gists */ = {
 			isa = PBXGroup;
 			children = (
 				499C6DBC1C63DF6B000A3CA7 /* ListGistsConfigurator.swift */,
@@ -226,7 +231,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499C6D9F1C63DF2E000A3CA7 /* ViewController.swift in Sources */,
 				499C6DC61C63DF6B000A3CA7 /* ListGistsPresenter.swift in Sources */,
 				499C6DC71C63DF6B000A3CA7 /* ListGistsRouter.swift in Sources */,
 				499C6DC51C63DF6B000A3CA7 /* ListGistsModels.swift in Sources */,

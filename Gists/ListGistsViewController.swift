@@ -26,6 +26,7 @@ class ListGistsViewController: UITableViewController, ListGistsViewControllerInp
   var output: ListGistsViewControllerOutput!
   var router: ListGistsRouter!
   
+    @IBOutlet weak var myTableView: UITableView!
   // MARK: Object lifecycle
   
   override func awakeFromNib()
