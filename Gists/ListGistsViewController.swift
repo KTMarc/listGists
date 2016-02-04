@@ -41,10 +41,11 @@ class ListGistsViewController: UITableViewController, ListGistsViewControllerInp
   {
     super.viewDidLoad()
     doSomethingOnLoad()
+    listGistsOnLoad()
   }
   
   // MARK: Event handling
-  
+
   func doSomethingOnLoad()
   {
     // NOTE: Ask the Interactor to do some work
@@ -61,4 +62,12 @@ class ListGistsViewController: UITableViewController, ListGistsViewControllerInp
     
     // nameTextField.text = viewModel.name
   }
+    
+    func listGistsOnLoad(){
+        
+    }
+    
+    func displayListGists(){
+        
+    }
 }

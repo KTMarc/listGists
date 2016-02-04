@@ -34,4 +34,8 @@ class ListGistsPresenter: ListGistsPresenterInput
     let viewModel = ListGistsViewModel()
     output.displaySomething(viewModel)
   }
+    
+    func presentListGists(){
+        
+    }
 }

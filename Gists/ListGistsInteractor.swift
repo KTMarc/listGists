@@ -40,4 +40,8 @@ class ListGistsInteractor: ListGistsInteractorInput
     let response = ListGistsResponse()
     output.presentSomething(response)
   }
+    
+    func listGists(){
+        
+    }
 }
