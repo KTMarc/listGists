@@ -13,6 +13,13 @@
 		499C6DA41C63DF2E000A3CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499C6DA31C63DF2E000A3CA7 /* Assets.xcassets */; };
 		499C6DA71C63DF2E000A3CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499C6DA51C63DF2E000A3CA7 /* LaunchScreen.storyboard */; };
 		499C6DB21C63DF2F000A3CA7 /* GistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C6DB11C63DF2F000A3CA7 /* GistsTests.swift */; };
+		499C6DC31C63DF6B000A3CA7 /* ListGistsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C6DBC1C63DF6B000A3CA7 /* ListGistsConfigurator.swift */; };
+		499C6DC41C63DF6B000A3CA7 /* ListGistsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C6DBD1C63DF6B000A3CA7 /* ListGistsInteractor.swift */; };
+		499C6DC51C63DF6B000A3CA7 /* ListGistsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C6DBE1C63DF6B000A3CA7 /* ListGistsModels.swift */; };
+		499C6DC61C63DF6B000A3CA7 /* ListGistsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C6DBF1C63DF6B000A3CA7 /* ListGistsPresenter.swift */; };
+		499C6DC71C63DF6B000A3CA7 /* ListGistsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C6DC01C63DF6B000A3CA7 /* ListGistsRouter.swift */; };
+		499C6DC81C63DF6B000A3CA7 /* ListGistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C6DC11C63DF6B000A3CA7 /* ListGistsViewController.swift */; };
+		499C6DC91C63DF6B000A3CA7 /* ListGistsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C6DC21C63DF6B000A3CA7 /* ListGistsWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		499C6DAD1C63DF2F000A3CA7 /* GistsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		499C6DB11C63DF2F000A3CA7 /* GistsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistsTests.swift; sourceTree = "<group>"; };
 		499C6DB31C63DF2F000A3CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499C6DBC1C63DF6B000A3CA7 /* ListGistsConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListGistsConfigurator.swift; sourceTree = "<group>"; };
+		499C6DBD1C63DF6B000A3CA7 /* ListGistsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListGistsInteractor.swift; sourceTree = "<group>"; };
+		499C6DBE1C63DF6B000A3CA7 /* ListGistsModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListGistsModels.swift; sourceTree = "<group>"; };
+		499C6DBF1C63DF6B000A3CA7 /* ListGistsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListGistsPresenter.swift; sourceTree = "<group>"; };
+		499C6DC01C63DF6B000A3CA7 /* ListGistsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListGistsRouter.swift; sourceTree = "<group>"; };
+		499C6DC11C63DF6B000A3CA7 /* ListGistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListGistsViewController.swift; sourceTree = "<group>"; };
+		499C6DC21C63DF6B000A3CA7 /* ListGistsWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListGistsWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +94,7 @@
 				499C6D9C1C63DF2E000A3CA7 /* AppDelegate.swift */,
 				499C6D9E1C63DF2E000A3CA7 /* ViewController.swift */,
 				499C6DA01C63DF2E000A3CA7 /* Main.storyboard */,
+				499C6DCA1C63E046000A3CA7 /* List Gists */,
 				499C6DA31C63DF2E000A3CA7 /* Assets.xcassets */,
 				499C6DA51C63DF2E000A3CA7 /* LaunchScreen.storyboard */,
 				499C6DA81C63DF2E000A3CA7 /* Info.plist */,
@@ -94,6 +109,20 @@
 				499C6DB31C63DF2F000A3CA7 /* Info.plist */,
 			);
 			path = GistsTests;
+			sourceTree = "<group>";
+		};
+		499C6DCA1C63E046000A3CA7 /* List Gists */ = {
+			isa = PBXGroup;
+			children = (
+				499C6DBC1C63DF6B000A3CA7 /* ListGistsConfigurator.swift */,
+				499C6DBD1C63DF6B000A3CA7 /* ListGistsInteractor.swift */,
+				499C6DBE1C63DF6B000A3CA7 /* ListGistsModels.swift */,
+				499C6DBF1C63DF6B000A3CA7 /* ListGistsPresenter.swift */,
+				499C6DC01C63DF6B000A3CA7 /* ListGistsRouter.swift */,
+				499C6DC11C63DF6B000A3CA7 /* ListGistsViewController.swift */,
+				499C6DC21C63DF6B000A3CA7 /* ListGistsWorker.swift */,
+			);
+			name = "List Gists";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +227,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				499C6D9F1C63DF2E000A3CA7 /* ViewController.swift in Sources */,
+				499C6DC61C63DF6B000A3CA7 /* ListGistsPresenter.swift in Sources */,
+				499C6DC71C63DF6B000A3CA7 /* ListGistsRouter.swift in Sources */,
+				499C6DC51C63DF6B000A3CA7 /* ListGistsModels.swift in Sources */,
+				499C6DC41C63DF6B000A3CA7 /* ListGistsInteractor.swift in Sources */,
+				499C6DC81C63DF6B000A3CA7 /* ListGistsViewController.swift in Sources */,
+				499C6DC91C63DF6B000A3CA7 /* ListGistsWorker.swift in Sources */,
 				499C6D9D1C63DF2E000A3CA7 /* AppDelegate.swift in Sources */,
+				499C6DC31C63DF6B000A3CA7 /* ListGistsConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
